@@ -1,0 +1,47 @@
+# 🚀 Node.js 相關
+node_modules/
+package-lock.json
+npm-debug.log
+yarn.lock
+.env
+
+# 🗂 日誌與暫存檔
+logs/
+*.log
+*.out
+*.pid
+*.seed
+*.tar.gz
+logs/*.log
+
+# 🛠 編譯輸出
+dist/
+build/
+coverage/
+.DS_Store
+*.swp
+*.swo
+
+# 🐳 Docker 相關
+docker-compose.override.yml
+docker-compose.dev.yml
+*.dockerfile
+
+# 🔐 環境變數 & 憑證
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env*.local
+
+# 🏗 IDE 相關設定
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+
+# 📦 PM2 設定
+pm2-logs/
+pids/
+dump.pm2
